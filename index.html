@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets//css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Work</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Portfolio</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div>
+      <h2>
+        We are <span>ChrisLake Capital</span>, we are
+        here to help you grow.
+      </h2>
+      <p>
+        We are a discovery fund that invests early in mission-driven founders that are building capital-efficient
+        platforms that democratize prosperity, plug infrastructural gaps, connect underrepresented communities, solve
+        for non-consumption, and improve livelihoods in Africa.
+      </p>
+      <button>Grow</button>
+    </div>
+    <div class="vectors">
+      <aside>
+        <img src="./assets/images/Vector 1.png" alt="">
+      </aside>
+      <aside>
+        <img src="./assets/images/Vector 1 (1).png" alt="">
+      </aside>
+      <aside>
+        <img src="./assets/images/Vector 3.png" alt="">
+      </aside>
+      
+    </div>
+  </div>
+
+  <section>
+    <div class="partner-tab">
+      <div class="note">
+        <p class="head">
+          Your growth partner &#128640;
+        </p>
+        <p class="text">
+          We have put together hundreds of successful
+          digital marketing campaigns for businesses looking to
+          increase leads, transactions, and qualified website traffic.
+          We'll do the same for you.&#129309;
+        </p>
+        </br>
+        <p class="brand_link">
+          <a href="contact">Enquire</a>
+        </p>
+      </div>
+      <div class="img-con">
+        <div class="img">
+          <img src="img/bike-plus-ride.png">
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = () => {
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = () => {
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = () => {
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+</body>
+
+</html>
