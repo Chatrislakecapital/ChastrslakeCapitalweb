@@ -213,6 +213,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .ready div:first-child {
   text-align: center;
@@ -228,14 +229,49 @@
   background: #000000;
   border-radius: 35px;
   cursor: pointer;
+  position: relative;
+  z-index: 10;
 }
 .ready div:first-child p {
   margin: 1rem 0;
 }
 
-.ready div:last-child{
-    flex-basis: 50%;
+.ready div:last-child {
+  flex-basis: 50%;
 }
-.ready div:last-child img{
-    width: 85%;
+.ready div:last-child img {
+  width: 85%;
+}
+.ready .vector4 {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  top: 20%;
+  left: 0;
+}
+
+/* what we do section  */
+.what_we h2{
+    text-align: center;
+    margin: 4rem 1rem 1rem;
+}
+.what__we__do {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background: #494949;
+}
+.what__we__do aside {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  background: #ffffff;
+  margin: 1rem 0.5rem;
+  border-radius: 15px;
 }
