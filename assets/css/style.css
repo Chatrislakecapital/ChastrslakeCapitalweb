@@ -642,6 +642,14 @@ border-radius: 15px;
     font-weight: bold;
 }
 
+
+
+
+
+
+
+
+
 @media (max-width: 865px) {
   .eye_catching {
     flex-direction: column-reverse;
