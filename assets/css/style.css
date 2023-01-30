@@ -603,7 +603,15 @@ footer {
     justify-content: center;
     padding: 0px;
   }
-  
+  footer p{
+    margin: 1rem 0;
+  }
+  footer a{
+    color: white;
+  }
+  footer i{
+    color: white;
+  }
   footer .social_link {
     text-align: center;
     width: 100%;
@@ -690,6 +698,14 @@ border-radius: 15px;
 .form__details div:first-child span{
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
 
 @media (max-width: 865px) {
     footer {
