@@ -263,13 +263,19 @@
   padding: 1rem;
   background: #494949;
 }
+.what__we__do img{
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */
+}
 .what__we__do aside {
   width: 350px;
-  height: 350px;
+  min-height: 450px;
   display: flex;
+  object-fit: contain;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   padding: 1rem 2rem;
   background: #ffffff;
   margin: 1rem 0.5rem;
@@ -406,6 +412,10 @@
   text-align: center;
   border-radius: 15px;
 }
+.advert aside img{
+    width: 70px;
+    height: 70px;
+}
 .advert aside h3 {
   margin: 2rem 0;
 }
@@ -423,7 +433,7 @@
 .travelling_girl {
   display: flex;
   min-height: 60vh;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: center;
 }
@@ -700,6 +710,10 @@ border-radius: 15px;
     width: 100%;
     margin: auto;
   }
+  .travelling_girl {
+   
+    flex-wrap: wrap;
+}
   .travelling_girl aside:last-child img {
     position: absolute;
     height: auto;
