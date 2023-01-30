@@ -237,7 +237,7 @@
       <p>Our packages include stunning custom graphics that are designed for your business. Your colours, fonts, logos,
         and identity, lovingly repackaged for a socially-savvy audience.</p>
     </aside>
-  
+
   </section>
 
   <section class="travelling_girl">
@@ -250,25 +250,77 @@
       </p>
     </aside>
   </section>
-  <script>
-    const body = document.querySelector("body");
-    const navbar = document.querySelector(".navbar");
-    const menuBtn = document.querySelector(".menu-btn");
-    const cancelBtn = document.querySelector(".cancel-btn");
-    menuBtn.onclick = () => {
-      navbar.classList.add("show");
-      menuBtn.classList.add("hide");
-      body.classList.add("disabled");
-    }
-    cancelBtn.onclick = () => {
-      body.classList.remove("disabled");
-      navbar.classList.remove("show");
-      menuBtn.classList.remove("hide");
-    }
-    window.onscroll = () => {
-      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-    }
-  </script>
+
+  <!-- section testimonial -->
+  <section>
+    <div class="testimonial">
+      <div>
+        <h3>Testimonial</h3>
+        <p class="testy">
+          They’ll do the same for you. Request a free strategy proposal and get a game plan for elite revenue
+          generation.
+
+        </p>
+        <p class="brand_link"><a href="/contact">Send me a proposal</a></p>
+      </div>
+
+
+      <div class="testy_img"><img src="./assets/images/Ellipse 7.png" />
+        <p>Mr Sam</p>
+        <p>MD, Maison Fahrenheit.</p>
+      </div>
+    </div>
+  </section>
+  <!-- product section -->
+  <section class="product">
+    <div>
+      <img src="./assets/images/Rectangle 771.png" alt="">
+    </div>
+    <div>
+      <p>Diverse, inventive minds looking <br>
+        <span> to drive innovation forward.</span>
+      </p>
+      <aside>
+        PORTFOLIO COMPANIES <br>
+        <span>306</span>
+      </aside>
+      <aside>
+        CAPITAL INVESTED
+        <br>
+        <span> $50,000,000 +</span>
+      </aside>
+    </div>
+  </section>
+
+
+  <footer>
+    <div>
+      <h2>We go the extra mile to deliver</h2>
+    </div>
+    <ul>
+      <li>About</li>
+      <li>newsroom</li>
+      <li>FAQS</li>
+    </ul>
+    <ul>
+      <li>Blog</li>
+      <li>Help</li>
+  
+    </ul>
+    <ul>
+      <li>Cookie</li>
+      <li>Privacy and policy</li>
+      <li>Fair Housing</li>
+    </ul>
+    <div>
+      <span>
+
+      </span>
+      <p>info@poterhubmedia.com</p>
+      <p class="copywrite">Copyright © 2022 Poterby LTD.</p>
+    </div>
+  </footer>
+  <script src="./assets/js/nav.js"></script>
 </body>
 
 </html>
