@@ -263,13 +263,13 @@ body {
 
 
 @media screen and (max-width: 1050px) {
-    .navbar {
+    /* .navbar {
         padding: 10px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
       }
-  
+   */
     .top-class {
       width: 100%;
       display: flex;
@@ -283,7 +283,7 @@ body {
     }
   
     .nav-links {
-      display: flex;
+      /* display: flex;
       flex-direction: column;
       align-items: flex-start;
       height: 100vh;
@@ -291,9 +291,9 @@ body {
       position: fixed;
       top: 0;
       left: -100%;
-      /* z-index: 999; */
+      z-index: 999;
       background: white;
-      transition: all ease 600ms;
+      transition: all ease 600ms; */
     }
 
     .nav-links li  {

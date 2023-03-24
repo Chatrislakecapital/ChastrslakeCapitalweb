@@ -1,110 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./assets/css/about.css">
-  <!-- <link rel="stylesheet" href="./assets/css/bootsrap.min.css"> -->
-  <link rel="stylesheet" href="./assets//css/style.css">
-  <style>
-    .about__people .cards{
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 30px;
-}
-.about__people .cards h2.header{
-  font-size: 40px;
-  margin: 0 0 30px 0;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-.about__people .services{
-  display: flex;
-  align-items: center;
-}
-.about__people .content{
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-  margin: 20px;
-  padding: 20px;
-  border: 2px solid black;
-  border-radius: 4px;
-  transition: all .3s ease;
-}
-.about__people .content .fab{
-  font-size: 70px;
-  margin: 16px 0;
-}
-.about__people .content > *{
-  flex: 1 1 100%;
-}
-.about__people .content:hover{
-  color: white;
-}
-.about__people .content:hover a{
-  border-color: white;
-  background: white;
-}
-.about__people .content-1:hover{
-  border-color: #1DA1F2;
-  background: #1DA1F2;
-}
-.about__people .content-1:hover a{
-  color: #1DA1F2;
-}
-.about__people .content-2:hover{
-  border-color: #E1306C;
-  background: #E1306C;
-}
-.about__people .content-2:hover a{
-  color: #E1306C;
-}
-.about__people .content-3:hover{
-  border-color: #ff0000;
-  background: #ff0000;
-}
-.about__people .content-3:hover a{
-  color: #ff0000;
-}
-.about__people .content h2{
-  font-size: 30px;
-  margin: 16px 0;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-.about__people .content p{
-  font-size: 17px;
-  font-family: 'Poppins',sans-serif;
-}
-.about__people .content a{
-  margin: 22px 0;
-  background: black;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  border: 1px solid black;
-  padding: 15px 0;
-  border-radius: 25px;
-  transition: .3s ease;
-}
-.about__people .content a:hover{
-  border-radius: 4px;
-}
-@media (max-width: 900px) {
-  .about__people .services{
-    display: flex;
-    flex-direction: column;
-  }
-}
-  </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-<body>
-  <nav class="navbar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/bootsrap.min.css"> -->
+    <link rel="stylesheet" href="./assets//css/style.css" />
+    <link rel="stylesheet" href="./assets/css/bootsrap.min.css" />
+
+    <style>
+      body {
+        font-size: large;
+      }
+      .about__people .cards {
+        max-width: 1100px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 30px;
+      }
+      .about__people .cards h2.header {
+        font-size: 40px;
+        margin: 0 0 30px 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .about__people .services {
+        display: flex;
+        align-items: center;
+      }
+      .about__people .content {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+      }
+      .about__people .content .fab {
+        font-size: 70px;
+        margin: 16px 0;
+      }
+      .about__people .content > * {
+        flex: 1 1 100%;
+      }
+      .about__people .content:hover {
+        color: white;
+      }
+      .about__people .content:hover a {
+        border-color: white;
+        background: white;
+      }
+      .about__people .content-1:hover {
+        border-color: #1da1f2;
+        background: #1da1f2;
+      }
+      .about__people .content-1:hover a {
+        color: #1da1f2;
+      }
+      .about__people .content-2:hover {
+        border-color: #e1306c;
+        background: #e1306c;
+      }
+      .about__people .content-2:hover a {
+        color: #e1306c;
+      }
+      .about__people .content-3:hover {
+        border-color: #ff0000;
+        background: #ff0000;
+      }
+      .about__people .content-3:hover a {
+        color: #ff0000;
+      }
+      .about__people .content h2 {
+        font-size: 30px;
+        margin: 16px 0;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+      .about__people .content p {
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+      }
+      .about__people .content a {
+        margin: 22px 0;
+        background: black;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 1px solid black;
+        padding: 15px 0;
+        border-radius: 25px;
+        transition: 0.3s ease;
+      }
+      .about__people .content a:hover {
+        border-radius: 4px;
+      }
+      @media (max-width: 900px) {
+        .about__people .services {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- <nav class="navbar">
     
     <div class="content">
       <div class="logo">
@@ -124,7 +132,7 @@
           <a href="./contact.html">Contact</a>
         </li>
         <li>
-          <!-- <a href="./work/index.html">Work</a> -->
+          <a href="./work/index.html">Work</a>
         </li>
         <li>
           <a href="./about.html">About</a>
@@ -134,111 +142,181 @@
         <i class="fas fa-bars"></i>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
-  <section class="contact-wrapper">
-    About 
-</section>
-
-
-<section class="section about" id="about">
-  <div class="about-content container">
-          <div class="about-imageContent">
-                  <img src="./assets/images/istockphoto-907579334-612x612.jpg" alt="" class="about-img">
-
-                  <div class="aboutImg-textBox">
-                          <i class='bx bx-heart heart-icon flex'></i>
-                          <p class="content-description">We are ChrisLake Capital, and we are here to help you grow.</p>
-                  </div>
-          </div>
-
-          <div class="about-details">
-                  <div class="about-text">
-                          <h4 class="content-subtitle"><i>CHARISLAKE CAPITAL</i></h4>
-            
-                          <p class="content-description">As a venture scouting and wealth management firm, we pride ourselves in the excellent service we provide. 
-                            We constantly strive to ensure 
-                            founders focus on their creativity and production process while we take on the burden of securing the funds that help facilitate and bring those projects into a reality. 
-                            To also manage portfolios effectively and add value to the financial productivity of any company. 
-                            .</p>
-
-                  </div>
-
-                  <div class="about-buttons flex">
-                          <button class="button">About Us</button>
-                          <a href="#" class="about-link flex">
-                                  <span class="link-text">see more</span>
-                                  <i class='bx bx-right-arrow-alt about-arrowIcon'></i>
-                          </a>
-                  </div>
-          </div>
-
-  </div>
-</section>
-
-<section class="about__people">
-  <div class="cards">
-   
-    <div class="services">
-       <div class="content content-1">
-       
-          <div class="font__image">
-            <img src="./assets/images/mission.png" alt="">
-          </div>
-          <h2>
-            MISSION
-          </h2>
-          <p>
-            Charis Lake Capital is for you. 
-            You with the drive to make a sustainable impact in our world. 
-            we are for the serious wanna-be entrepreneurs, young entrepreneurs, old entrepreneurs, managers, investors- both young & old.
-
-            That is our mission; to turn dreams into reality!
-          </p>
-          
-       </div>
-       <div class="content content-2">
-        <div class="font__image">
-          <img src="./assets/images/vision.png" alt="">
-        </div>
-          <h2>
-           VISION
-          </h2>
-          <p>
-            We envision to be the most trusted investment home for investors across the globe. 
-            Connecting investors to the next big start-up.
-          </p>
-     
-       </div>
-       
-    </div>
- </div>
-</section>
-
-    <footer>
-    <h3>We go the extra mile to deliver</h3>
-
-    <article>
-      <div class="social_link">
-        <ul>
-          <li><a href="https://www.facebook.com/charislakcapital"><img
-                src="https://img.icons8.com/sf-ultralight/25/000000/facebook.png" /></a></li>
-          <li><a href="https://www.instagram/charislakcapital"><img
-                src="https://img.icons8.com/sf-ultralight/25/000000/instagram-new.png" /> </a></li>
-          <li><a href="https://www.linkedin.com/company/charislakcapital"><img
-                src="https://img.icons8.com/sf-ultralight/25/000000/linkedin.png" /></a></li>
-          <li><a href="https://twitter.com/charislakcapital"><img
-                src="https://img.icons8.com/sf-ultralight/25/000000/twitter.png" /></a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"
+        ><img
+          src="./assets/images/dark_logo_transparent_background.png"
+          alt=""
+          style="width: 100px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services.html">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Team.html">Team</a>
+          </li>
         </ul>
       </div>
+    </nav>
+    <section class="contact-wrapper">About</section>
 
-        <p><a href="mailto:info@chrislakecapital.com">info@chrislakecapital.com</a></p>
+    <section class="section about" id="about">
+      <div class="about-content container">
+        <div class="about-imageContent">
+          <img
+            src="./assets/images/istockphoto-907579334-612x612.jpg"
+            alt=""
+            class="about-img"
+          />
 
-        <p>Copyright &copy; 2023 ChrisLake Capital. </p>
-    </article>
+          <div class="aboutImg-textBox">
+            <i class="bx bx-heart heart-icon flex"></i>
+            <p class="content-description">
+              We are ChrisLake Capital, and we are here to help you grow.
+            </p>
+          </div>
+        </div>
 
-   
-  </footer>
-  <script src="./assets/js/nav.js"></script>
-</body>
+        <div class="about-details">
+          <div class="about-text">
+            <h4 class="content-subtitle"><i>CHARISLAKE CAPITAL</i></h4>
+
+            <p class="content-description">
+              As a venture scouting and wealth management firm, we pride
+              ourselves in the excellent service we provide. We constantly
+              strive to ensure founders focus on their creativity and production
+              process while we take on the burden of securing the funds that
+              help facilitate and bring those projects into a reality. To also
+              manage portfolios effectively and add value to the financial
+              productivity of any company. .
+            </p>
+          </div>
+
+          <div class="about-buttons flex">
+            <button class="button">About Us</button>
+            <a href="#" class="about-link flex">
+              <span class="link-text">see more</span>
+              <i class="bx bx-right-arrow-alt about-arrowIcon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about__people">
+      <div class="cards">
+        <div class="services">
+          <div class="content content-1">
+            <div class="font__image">
+              <img src="./assets/images/mission.png" alt="" />
+            </div>
+            <h2>MISSION</h2>
+            <p>
+              Charis Lake Capital is for you. You with the drive to make a
+              sustainable impact in our world. we are for the serious wanna-be
+              entrepreneurs, young entrepreneurs, old entrepreneurs, managers,
+              investors- both young & old. That is our mission; to turn dreams
+              into reality!
+            </p>
+          </div>
+          <div class="content content-2">
+            <div class="font__image">
+              <img src="./assets/images/vision.png" alt="" />
+            </div>
+            <h2>VISION</h2>
+            <p>
+              We envision to be the most trusted investment home for investors
+              across the globe. Connecting investors to the next big start-up.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h3>We go the extra mile to deliver</h3>
+
+      <article>
+        <div class="social_link">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/charislakcapital"
+                ><img
+                  src="https://img.icons8.com/sf-ultralight/25/000000/facebook.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram/charislakcapital"
+                ><img
+                  src="https://img.icons8.com/sf-ultralight/25/000000/instagram-new.png"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/charislakcapital"
+                ><img
+                  src="https://img.icons8.com/sf-ultralight/25/000000/linkedin.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/charislakcapital"
+                ><img
+                  src="https://img.icons8.com/sf-ultralight/25/000000/twitter.png"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <p>
+          <a href="mailto:info@chrislakecapital.com"
+            >info@chrislakecapital.com</a
+          >
+        </p>
+
+        <p>Copyright &copy; 2023 ChrisLake Capital.</p>
+      </article>
+    </footer>
+    <script src="./assets/js/nav.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
