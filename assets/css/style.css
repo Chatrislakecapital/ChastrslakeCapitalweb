@@ -600,6 +600,7 @@ footer h3 {
   letter-spacing: 0em;
   color: rgb(255, 255, 255);
   margin-top: 40px;
+  text-align: center;
 }
 footer article {
   display: flex;
