@@ -50,6 +50,9 @@
   font-weight: 600;
   text-decoration: none;
 }
+.navbar-light .navbar-toggler {
+  border: none;
+}
 .navbar .logo img {
   width: 70px;
   height: 70px;
