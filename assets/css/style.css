@@ -221,16 +221,25 @@
 
 /* ready section */
 .ready {
-  margin-top: 15rem;
+  margin-top: 10rem;
   padding: 0 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
+  /* flex-wrap: wrap; */
+}
+.ready-flex{
+  flex-wrap: wrap;
+  gap:2em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
 }
 .ready div:first-child {
   text-align: center;
-  flex-basis: 45%;
+  /* flex-basis: 45%; */
 }
 .ready div:first-child aside {
   margin: 2rem 0;
@@ -250,10 +259,10 @@
 }
 
 .ready div:last-child {
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
 }
 .ready div:last-child img {
-  width: 85%;
+  /* width: 85%; */
 }
 .ready .vector4 {
   position: absolute;
@@ -265,8 +274,8 @@
 }
 
 .ready img {
-  width: 500px;
-  height: 300px;
+  /* width: 500px; */
+  /* height: 300px; */
   border-radius: 20px;
 }
 
@@ -296,7 +305,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   background: #ffffff;
   margin: 1rem 0.5rem;
   border-radius: 15px;
@@ -774,16 +783,16 @@ footer .social_link > ul li {
   /* .travelling_girl aside:last-child img {
     position: relative;
     height: auto;
-    /* width: 70%; */
+    width: 70%;
     /* display: none; */
-    /* left: -10px; */
-  }
+   /* left: -10px; */
+  /* }  */
   .travelling_girl aside:first-child img {
-    /* width: 80%; */
+    width: 80%;
     margin: auto;
     display: none;
-  } */
-}
+  } 
+} 
 
 @media (max-width: 550px) {
   footer {
@@ -815,13 +824,19 @@ footer .social_link > ul li {
   .travelling_girl {
     flex-wrap: wrap;
   }
-  .travelling_girl aside:last-child img {
+  /* .travelling_girl aside:last-child img {
     position: relative;
     height: auto;
     width: 70%;
-    display: none;
-    /* left: -10px; */
+    display: none; 
+     right: -30px;
+  } */
+  .travelling_girl aside:last-child img {
+    position: absolute;
+    height: 100%;
+    width:90%;
   }
+ 
   .travelling_girl aside:first-child img {
     width: 80%;
     margin: auto;
@@ -924,4 +939,16 @@ footer .social_link > ul li {
 }
 .about-link:hover .about-arrowIcon {
   margin-left: 4px;
+}
+
+@media only screen and (max-width:455px){
+  .ready img {
+    width:300px;
+}
+.what__we__do aside {
+  font-size: smaller;
+}
+.wrapper h1{
+  font-size:40px;
+}
 }
