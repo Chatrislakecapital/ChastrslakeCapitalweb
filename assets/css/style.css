@@ -783,6 +783,7 @@ footer .social_link > ul li {
   .testimonial div {
     width: auto;
   }
+<<<<<<< Updated upstream
   /* .travelling_girl aside:last-child img {
     position: relative;
     height: auto;
@@ -797,6 +798,15 @@ footer .social_link > ul li {
   } 
 } 
 
+=======
+  
+
+  .travelling_girl aside:first-child img {
+    margin: auto;
+    display: none;
+  } 
+}
+>>>>>>> Stashed changes
 @media (max-width: 550px) {
   footer {
     padding: 1rem;
